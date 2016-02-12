@@ -15,10 +15,12 @@
      - All tests </h1>
 <p class="intro">
                         Executed
-                        3
+                        4
                         tests
                     
-                        without a single error or failure!
+                        with
+                        one failure
+                        .
                     </p>
 </div>
 <div class="grid_2 omega">
@@ -41,15 +43,17 @@
 </nav>
 </div>
 <div class="clear"></div>
-<div class="testsuite success">
+<div class="testsuite failure">
 <div class="header">
 <h2>UserIntegrationSpec</h2>
 <h3>
                         Executed
-                        3
+                        4
                         tests
                     
-                        without a single error or failure!
+                        with
+                        one failure
+                        .
                     </h3>
 </div>
 <div class="testcase clearfix success grid_8 alpha omega" data-name="Saving our first user to the database">
@@ -57,7 +61,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Saving our first user to the database</b>
 </p>
-<p class="summary">Executed in 0.459 seconds.</p>
+<p class="summary">Executed in 0.55 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -67,7 +71,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Updating a saved user changes its properties</b>
 </p>
-<p class="summary">Executed in 0.019 seconds.</p>
+<p class="summary">Executed in 0.012 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -77,9 +81,40 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Deleting an existing user removes it from the database</b>
 </p>
-<p class="summary">Executed in 0.084 seconds.</p>
+<p class="summary">Executed in 0.062 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="Saving a user with invalid properties causes an error">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">Saving a user with invalid properties causes an error</b>
+</p>
+<p class="summary">Executed in 0.054 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Condition not satisfied:
+
+user.hasErrors()
+|    |
+|    false
+com.grailsinaction.User : 4
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Condition not satisfied:
+
+user.hasErrors()
+|    |
+|    false
+com.grailsinaction.User : 4
+
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:79)
+</pre>
+</div>
+</div>
 <div class="clear"></div>
 </div>
 <div class="clearfix output footer">
@@ -88,6 +123,7 @@
 <pre class="stdout">--Output from Saving our first user to the database--
 --Output from Updating a saved user changes its properties--
 --Output from Deleting an existing user removes it from the database--
+--Output from Saving a user with invalid properties causes an error--
 </pre>
 </div>
 <div class="syserr">
@@ -95,6 +131,7 @@
 <pre class="syserr">--Output from Saving our first user to the database--
 --Output from Updating a saved user changes its properties--
 --Output from Deleting an existing user removes it from the database--
+--Output from Saving a user with invalid properties causes an error--
 </pre>
 </div>
 </div>

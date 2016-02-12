@@ -1,16 +1,36 @@
 Testsuite: com.grailsinaction.UserIntegrationSpec
-Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0,594 sec
+Tests run: 4, Failures: 1, Errors: 0, Time elapsed: 0,68 sec
 ------------- Standard Output ---------------
 --Output from Saving our first user to the database--
 --Output from Updating a saved user changes its properties--
 --Output from Deleting an existing user removes it from the database--
+--Output from Saving a user with invalid properties causes an error--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
 --Output from Saving our first user to the database--
 --Output from Updating a saved user changes its properties--
 --Output from Deleting an existing user removes it from the database--
+--Output from Saving a user with invalid properties causes an error--
 ------------- ---------------- ---------------
 
-Testcase: Saving our first user to the database took 0,46 sec
-Testcase: Updating a saved user changes its properties took 0,019 sec
-Testcase: Deleting an existing user removes it from the database took 0,084 sec
+Testcase: Saving our first user to the database took 0,551 sec
+Testcase: Updating a saved user changes its properties took 0,012 sec
+Testcase: Deleting an existing user removes it from the database took 0,062 sec
+Testcase: Saving a user with invalid properties causes an error took 0,052 sec
+	FAILED
+Condition not satisfied:
+
+user.hasErrors()
+|    |
+|    false
+com.grailsinaction.User : 4
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+user.hasErrors()
+|    |
+|    false
+com.grailsinaction.User : 4
+
+	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:79)
+
