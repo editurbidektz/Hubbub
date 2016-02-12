@@ -7,6 +7,9 @@ import spock.lang.*
  */
 class UserIntegrationSpec extends Specification {
 
+    /*
+     * Exercise 3.2.1
+     */
     def "Saving our first user to the database"() {
 
         given: "A brand new user"
@@ -22,6 +25,9 @@ class UserIntegrationSpec extends Specification {
         User.get(joe.id).loginId == joe.loginId
     }
 
+    /*
+     * Exercise 3.2.2
+     */
     def "Updating a saved user changes its properties"() {
 
         given: "An existing user"
@@ -36,5 +42,23 @@ class UserIntegrationSpec extends Specification {
 
         then: "The change is reflected in the database"
         User.get(existingUser.id).password == 'sesame'
+    }
+
+    /*
+     * Exercise 3.2.3
+     */
+    def "Deleting an existing user removes it from the database"() {
+
+        given: "An existing user"
+        def user = new User(loginId: 'joe', password: 'secret',
+                        homepage: 'http://www.grailsinaction.com')
+        user.save(failOnError: true)
+
+        when: "The user is deleted"
+        def foundUser = User.get(user.id)
+        foundUser.delete(flush: true)
+
+        then: "The user is removed from the database"
+        !User.exists(foundUser.id)
     }
 }

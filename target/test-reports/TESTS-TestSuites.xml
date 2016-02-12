@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="eduardo-Aspire-E5-473" id="0" name="UserIntegrationSpec" package="com.grailsinaction" tests="3" time="0.594" timestamp="2016-02-12T13:09:30">
+      <properties />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving our first user to the database" time="0.459" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Updating a saved user changes its properties" time="0.019" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Deleting an existing user removes it from the database" time="0.084" />
+
+      <system-out><![CDATA[--Output from Saving our first user to the database--
+--Output from Updating a saved user changes its properties--
+--Output from Deleting an existing user removes it from the database--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Saving our first user to the database--
+--Output from Updating a saved user changes its properties--
+--Output from Deleting an existing user removes it from the database--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
