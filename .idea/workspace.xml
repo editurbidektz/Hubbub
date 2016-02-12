@@ -1,84 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e66b3b85-67a2-4316-84f5-273047fe8c1b" name="Default" comment="ejercicio: 3.2.3 &#10;- Deleting objects from the database is a one-liner">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/IdeaPrintProjectSettings$_run_closure1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/IdeaPrintProjectSettings.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/LinkedProperties.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/ListEnumeration.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/grailsinaction/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/integration/com/grailsinaction/UserIntegrationSpec.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsBootstrap_groovy$_run_closure1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsBootstrap_groovy$_run_closure2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsBootstrap_groovy$_run_closure3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsBootstrap_groovy$_run_closure4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsBootstrap_groovy$_run_closure5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsBootstrap_groovy$_run_closure6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsBootstrap_groovy$_run_closure7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsBootstrap_groovy$_run_closure8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsBootstrap_groovy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsCreateArtifacts_groovy$_run_closure1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsCreateArtifacts_groovy$_run_closure1_closure10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsCreateArtifacts_groovy$_run_closure1_closure6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsCreateArtifacts_groovy$_run_closure1_closure7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsCreateArtifacts_groovy$_run_closure1_closure8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsCreateArtifacts_groovy$_run_closure1_closure9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsCreateArtifacts_groovy$_run_closure2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsCreateArtifacts_groovy$_run_closure3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsCreateArtifacts_groovy$_run_closure4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsCreateArtifacts_groovy$_run_closure5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsCreateArtifacts_groovy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsTest_groovy$_run_closure1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsTest_groovy$_run_closure10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsTest_groovy$_run_closure11.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsTest_groovy$_run_closure12.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsTest_groovy$_run_closure2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsTest_groovy$_run_closure3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsTest_groovy$_run_closure4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsTest_groovy$_run_closure5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsTest_groovy$_run_closure6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsTest_groovy$_run_closure7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsTest_groovy$_run_closure8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsTest_groovy$_run_closure9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsTest_groovy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/hubbub/grails-resources/images/apple-touch-icon-retina.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/hubbub/grails-resources/images/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/hubbub/grails-resources/images/skin/database_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/hubbub/grails-resources/images/skin/database_delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/hubbub/grails-resources/images/skin/database_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/hubbub/grails-resources/images/skin/database_save.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/hubbub/grails-resources/images/skin/database_table.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/hubbub/grails-resources/images/skin/exclamation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/hubbub/grails-resources/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/hubbub/grails-resources/images/grails_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/hubbub/grails-resources/images/skin/house.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/hubbub/grails-resources/images/skin/information.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/hubbub/grails-resources/images/skin/sorted_asc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/hubbub/grails-resources/images/skin/sorted_desc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/hubbub/grails-resources/images/spinner.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/html/com/grailsinaction/0_UserIntegrationSpec.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/plain/TEST-integration-integration-com.grailsinaction.UserIntegrationSpec-err.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/plain/TEST-integration-integration-com.grailsinaction.UserIntegrationSpec-out.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/plain/TEST-integration-integration-com.grailsinaction.UserIntegrationSpec.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/TEST-integration-integration-com.grailsinaction.UserIntegrationSpec.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/TESTS-TestSuites.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/com/grailsinaction/UserSpec.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/html/all.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/integration/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/html/failed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/html/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/hubbub/grails-resources/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/hubbub/grails-resources/css/mobile.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/spring/resources.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/html/stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="e66b3b85-67a2-4316-84f5-273047fe8c1b" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/com/grailsinaction/UserIntegrationSpec.groovy" afterPath="$PROJECT_DIR$/test/integration/com/grailsinaction/UserIntegrationSpec.groovy" />
     </list>
     <ignored path="hubbub.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -603,7 +527,7 @@
       <workItem from="1455213924850" duration="1687000" />
       <workItem from="1455274545819" duration="1040000" />
       <workItem from="1455277581589" duration="14000" />
-      <workItem from="1455279441669" duration="4250000" />
+      <workItem from="1455279441669" duration="4311000" />
     </task>
     <task id="LOCAL-00001" summary="Probando un commit">
       <created>1455210981583</created>
@@ -623,15 +547,21 @@
       <option name="project" value="LOCAL" />
       <updated>1455281231896</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ejercicio: 3.2.3 &#10;- Deleting objects from the database is a one-liner">
+      <created>1455286881314</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1455286881314</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10818000" />
+    <option name="totallyTimeSpent" value="10879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="46" width="662" height="722" extended-state="4" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
