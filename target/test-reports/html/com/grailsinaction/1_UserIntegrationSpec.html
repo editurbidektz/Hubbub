@@ -35,17 +35,15 @@
 </nav>
 </div>
 <div class="clear"></div>
-<div class="testsuite failure">
+<div class="testsuite success">
 <div class="header">
 <h2>UserIntegrationSpec</h2>
 <h3>
                         Executed
-                        4
+                        6
                         tests
                     
-                        with
-                        one failure
-                        .
+                        without a single error or failure!
                     </h3>
 </div>
 <div class="testcase clearfix success grid_8 alpha omega" data-name="Saving our first user to the database">
@@ -53,7 +51,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Saving our first user to the database</b>
 </p>
-<p class="summary">Executed in 0.55 seconds.</p>
+<p class="summary">Executed in 0.44 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -63,7 +61,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Updating a saved user changes its properties</b>
 </p>
-<p class="summary">Executed in 0.012 seconds.</p>
+<p class="summary">Executed in 0.037 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -73,40 +71,39 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Deleting an existing user removes it from the database</b>
 </p>
-<p class="summary">Executed in 0.062 seconds.</p>
+<p class="summary">Executed in 0.042 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
-<div class="testcase clearfix failure grid_8 alpha omega" data-name="Saving a user with invalid properties causes an error">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Saving a user with invalid properties causes an error">
 <div class="grid_3 alpha">
 <p>
-<span class="icon failure"></span><b class="testname message failure">Saving a user with invalid properties causes an error</b>
+<span class="icon success"></span><b class="testname message success">Saving a user with invalid properties causes an error</b>
 </p>
-<p class="summary">Executed in 0.054 seconds.</p>
+<p class="summary">Executed in 0.048 seconds.</p>
 </div>
-<div class="grid_5 omega outputinfo">
-<div class="details">
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Recovering from a failed save by fixing invalid properties">
+<div class="grid_3 alpha">
 <p>
-<b class="message">Condition not satisfied:
-
-user.hasErrors()
-|    |
-|    false
-com.grailsinaction.User : 4
-</b>
+<span class="icon success"></span><b class="testname message success">Recovering from a failed save by fixing invalid properties</b>
 </p>
-<pre>junit.framework.AssertionFailedError: Condition not satisfied:
-
-user.hasErrors()
-|    |
-|    false
-com.grailsinaction.User : 4
-
-	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:79)
-</pre>
+<p class="summary">Executed in 0.012 seconds.</p>
 </div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
 </div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Ensure a  user can follow other users">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">Ensure a  user can follow other users</b>
+</p>
+<p class="summary">Executed in 0.019 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
 <div class="clearfix output footer">
@@ -116,6 +113,8 @@ com.grailsinaction.User : 4
 --Output from Updating a saved user changes its properties--
 --Output from Deleting an existing user removes it from the database--
 --Output from Saving a user with invalid properties causes an error--
+--Output from Recovering from a failed save by fixing invalid properties--
+--Output from Ensure a  user can follow other users--
 </pre>
 </div>
 <div class="syserr">
@@ -124,6 +123,8 @@ com.grailsinaction.User : 4
 --Output from Updating a saved user changes its properties--
 --Output from Deleting an existing user removes it from the database--
 --Output from Saving a user with invalid properties causes an error--
+--Output from Recovering from a failed save by fixing invalid properties--
+--Output from Ensure a  user can follow other users--
 </pre>
 </div>
 </div>

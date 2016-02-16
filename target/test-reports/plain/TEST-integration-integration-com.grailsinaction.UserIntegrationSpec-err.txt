@@ -2,3 +2,5 @@
 --Output from Updating a saved user changes its properties--
 --Output from Deleting an existing user removes it from the database--
 --Output from Saving a user with invalid properties causes an error--
+--Output from Recovering from a failed save by fixing invalid properties--
+--Output from Ensure a  user can follow other users--

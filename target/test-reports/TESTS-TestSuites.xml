@@ -1,37 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="1" hostname="eduardo-Aspire-E5-473" id="0" name="UserIntegrationSpec" package="com.grailsinaction" tests="4" time="0.68" timestamp="2016-02-12T16:28:08">
+  <testsuite errors="0" failures="0" hostname="eduardo-Aspire-E5-473" id="0" name="PostIntegrationSpec" package="com.grailsinaction" tests="3" time="0.062" timestamp="2016-02-16T12:13:58">
       <properties />
 
-      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving our first user to the database" time="0.55" />
+      <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Adding posts to user links post to user" time="0.016" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Updating a saved user changes its properties" time="0.012" />
+      <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Ensure posts linked to a user can be retrieved" time="0.02" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Deleting an existing user removes it from the database" time="0.062" />
+      <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Exercise tagging several posts with various tags" time="0.025" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving a user with invalid properties causes an error" time="0.054">
-          <failure message="Condition not satisfied:&#xa;&#xa;user.hasErrors()&#xa;|    |&#xa;|    false&#xa;com.grailsinaction.User : 4&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+      <system-out><![CDATA[--Output from Adding posts to user links post to user--
+--Output from Ensure posts linked to a user can be retrieved--
+--Output from Exercise tagging several posts with various tags--
+]]></system-out>
 
-user.hasErrors()
-|    |
-|    false
-com.grailsinaction.User : 4
+      <system-err><![CDATA[--Output from Adding posts to user links post to user--
+--Output from Ensure posts linked to a user can be retrieved--
+--Output from Exercise tagging several posts with various tags--
+]]></system-err>
 
-	at com.grailsinaction.UserIntegrationSpec.Saving a user with invalid properties causes an error(UserIntegrationSpec.groovy:79)
-</failure>
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="eduardo-Aspire-E5-473" id="1" name="UserIntegrationSpec" package="com.grailsinaction" tests="6" time="0.6" timestamp="2016-02-16T12:13:58">
+      <properties />
 
-      </testcase>
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving our first user to the database" time="0.44" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Updating a saved user changes its properties" time="0.037" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Deleting an existing user removes it from the database" time="0.042" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving a user with invalid properties causes an error" time="0.048" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Recovering from a failed save by fixing invalid properties" time="0.012" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Ensure a  user can follow other users" time="0.019" />
 
       <system-out><![CDATA[--Output from Saving our first user to the database--
 --Output from Updating a saved user changes its properties--
 --Output from Deleting an existing user removes it from the database--
 --Output from Saving a user with invalid properties causes an error--
+--Output from Recovering from a failed save by fixing invalid properties--
+--Output from Ensure a  user can follow other users--
 ]]></system-out>
 
       <system-err><![CDATA[--Output from Saving our first user to the database--
 --Output from Updating a saved user changes its properties--
 --Output from Deleting an existing user removes it from the database--
 --Output from Saving a user with invalid properties causes an error--
+--Output from Recovering from a failed save by fixing invalid properties--
+--Output from Ensure a  user can follow other users--
 ]]></system-err>
 
   </testsuite>
